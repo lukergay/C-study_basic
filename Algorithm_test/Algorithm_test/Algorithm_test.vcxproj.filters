@@ -13,18 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{bf0b2795-2d3a-44e9-96a9-82f0d8b79d24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Algorithm.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="SearchAlgorithm.cpp">
+      <Filter>Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Algorithm.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="SearchAlgorithm.h">
+      <Filter>Algorithm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
