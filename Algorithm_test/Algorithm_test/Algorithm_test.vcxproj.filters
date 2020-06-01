@@ -16,18 +16,30 @@
     <Filter Include="Algorithm">
       <UniqueIdentifier>{bf0b2795-2d3a-44e9-96a9-82f0d8b79d24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm\search">
+      <UniqueIdentifier>{3a08eeea-d0e8-4b95-a5e3-86bfa1bfd2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\sort">
+      <UniqueIdentifier>{f789e02f-2a81-4e4e-a7c1-9693014606d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SearchAlgorithm.cpp">
-      <Filter>Algorithm</Filter>
+      <Filter>Algorithm\search</Filter>
+    </ClCompile>
+    <ClCompile Include="SortAlgorithm.cpp">
+      <Filter>Algorithm\sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchAlgorithm.h">
-      <Filter>Algorithm</Filter>
+      <Filter>Algorithm\search</Filter>
+    </ClInclude>
+    <ClInclude Include="SortAlgorithm.h">
+      <Filter>Algorithm\sort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
