@@ -1,14 +1,20 @@
-﻿  main.cpp
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\main.cpp(14): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  SortAlgorithm.cpp
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(59): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(115): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(119): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+﻿  SortAlgorithm.cpp
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(58): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(117): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(121): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(168): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(233): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(255): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
   正在生成代码...
   Algorithm_test.vcxproj -> E:\2020\study_basic\C-study_basic\Algorithm_test\x64\Debug\Algorithm_test.exe
