@@ -283,6 +283,63 @@ void SortAlgorithm::max_heapify(vector<int> &v_arr, int start, int end)
 	}
 }
 
+void SortAlgorithm::radix_sort(vector<int>& v_arr)
+{
+	if (v_arr.empty())
+		return ;
+	int n = get_max_bit(v_arr);
+	int len = v_arr.size();
+	vector<int> tmp;
+	tmp.resize(len);
+	vector<int>count;
+	count.resize(10, 0);		//计数器 	
+	int i, j, k;
+	int radix = 1;
+
+	for (i =1; i <= n; ++i) {   //进行d次排序
+		for (j = 0; j < 10; j++)
+			count[j] = 0;	//每次分配前清空计数器
+
+		for (j = 0; j < len; ++j) {
+			count[(v_arr[j] / radix) % 10]++; //统计每个桶中的记录数
+		}
+
+		for (j = 1; j < 10; ++j)
+			count[j] = count[j - 1] + count[j]; //将tmp中的位置依次分配给每个桶
+
+		for (j = len - 1; j >= 0; j--) //将所有桶中记录依次收集到tmp中
+		{
+			k = (v_arr[j] / radix) % 10;
+			tmp[count[k] - 1] = v_arr[j];
+			count[k]--;
+		}
+
+		for (j = 0; j < len; ++j)
+			v_arr[j] = tmp[j];
+
+
+		radix *= 10;
+	}
+
+
+}
+
+int SortAlgorithm::get_max_bit(vector<int>& v)
+{
+	int  max_data = v[0];
+	for (int i = 1; i < v.size(); ++i){
+		if (v[i] > max_data)
+			max_data = v[i];
+	}
+
+	int d = 1;
+	while (max_data >= 10) {
+		max_data /= 10;
+		++d;
+	}
+	return d;
+}
+
 
 
 
