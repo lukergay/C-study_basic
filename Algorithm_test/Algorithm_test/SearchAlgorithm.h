@@ -53,7 +53,7 @@ public:
 		插值算法是由折半算法转换， 适用于  对于数据量较大，关键字分布比较均匀的查找表来说，采用插值查找, 速度较快.
 
 	核心算法
-	 mid= low+ [(value - v[low])/(v[high]-a[low])* (high-low)]
+		mid= low+ [(value - v[low])/(v[high]-a[low])* (high-low)]
 
 	  同样分为递归，循环
 	*/

@@ -1,20 +1,11 @@
-﻿  SortAlgorithm.cpp
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(58): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(117): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(121): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(168): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=int
-          ]
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(233): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\sortalgorithm.cpp(255): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+﻿  LinkList.cpp
   main.cpp
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\data_config.h(8): warning C4005: “OVERFLOW”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(967): note: 参见“OVERFLOW”的前一个定义
+e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\main.cpp(107): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  SqList.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(967): warning C4005: “OVERFLOW”: 宏重定义
+  e:\2020\study_basic\c-study_basic\algorithm_test\algorithm_test\data_config.h(8): note: 参见“OVERFLOW”的前一个定义
+  SqStack.cpp
   正在生成代码...
   Algorithm_test.vcxproj -> E:\2020\study_basic\C-study_basic\Algorithm_test\x64\Debug\Algorithm_test.exe

@@ -317,11 +317,8 @@ void SortAlgorithm::radix_sort(vector<int>& v_arr)
 		for (j = 0; j < len; ++j)
 			v_arr[j] = tmp[j];
 
-
 		radix *= 10;
 	}
-
-
 }
 
 int SortAlgorithm::get_max_bit(vector<int>& v)
@@ -339,6 +336,7 @@ int SortAlgorithm::get_max_bit(vector<int>& v)
 	}
 	return d;
 }
+
 
 
 

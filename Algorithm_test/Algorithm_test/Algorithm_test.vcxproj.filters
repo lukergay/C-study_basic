@@ -22,6 +22,9 @@
     <Filter Include="Algorithm\sort">
       <UniqueIdentifier>{f789e02f-2a81-4e4e-a7c1-9693014606d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm\data_struct">
+      <UniqueIdentifier>{dfebf7bd-5128-48fa-9ddf-f07b958729fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,12 @@
     <ClCompile Include="SortAlgorithm.cpp">
       <Filter>Algorithm\sort</Filter>
     </ClCompile>
+    <ClCompile Include="SqList.cpp">
+      <Filter>Algorithm\data_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="SqStack.cpp">
+      <Filter>Algorithm\data_struct</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchAlgorithm.h">
@@ -40,6 +49,15 @@
     </ClInclude>
     <ClInclude Include="SortAlgorithm.h">
       <Filter>Algorithm\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="SqList.h">
+      <Filter>Algorithm\data_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="data_config.h">
+      <Filter>Algorithm\data_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="SqStack.h">
+      <Filter>Algorithm\data_struct</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
